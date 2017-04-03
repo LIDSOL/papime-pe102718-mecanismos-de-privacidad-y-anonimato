@@ -9,7 +9,7 @@ La red TOR (The Onion Routing)
 ------------------------------------------
 ### El Navegador TOR
 
-Niveles de Seguridad
+## Niveles de Seguridad
 +Bajo. Con esta configuración, todas las características del navegador están activadas.
 +Medio
 +Alto
