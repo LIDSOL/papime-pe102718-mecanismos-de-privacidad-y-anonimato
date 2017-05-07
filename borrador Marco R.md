@@ -12,6 +12,9 @@ Y a pesar de que no es infalible, y en ocasiones es objeto de críticas ante el 
 objeto de estudia en instituciones educativas que incorporen en su objetivo el no solo formar ingenieros, computólogos, 
 informáticos u otras profesiones involucradas con un ordenador, sino también para cualquier otra persona que realice 
 tareas conectado a internet , lo cual hoy en día es una gran parte de la población.
+Sumando que el número de usuarios que utiliza internet desde un Smartphone hoy en día es significativamente mayor a quienes lo hacen a través de una computadora o laptop<sup>1</sup> resulta importante enfocarnos también en tecnologías que se adapten a estos dispositivos, tal y como lo hace Orbot, una variante del navegador TOR para dispositivos con el sistema operativo Android
+1 https://www.forbes.com.mx/smartphone-favorito-los-mexicanos-usar-internet/
+
 
 
 Resumen Biográfico
