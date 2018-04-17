@@ -4,13 +4,12 @@
 2. Lo mismo para las listas de correos de anon priv
 3. [X] Documentar enlaces de telegram
 4. Documentar listas de correos
-5. Crear documentación de Introducción a TOR
+5. Crear documentación de Introducción a TOR y alternativas
 6. Creación de imagenes Build root
 	* x86 @umoqnier
-	* Raspberry PI
-	* Banana PI
-	* Cheap
-	* MIPS
+	* Raspberry pi zero-w
+	* Raspberry pi 2
+	* Raspberry pi 3
 7. scripts para nodos (Bash o python)
 	* Relays
 	* Salidas

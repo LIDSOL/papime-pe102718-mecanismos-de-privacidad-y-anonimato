@@ -1,5 +1,5 @@
-# red-tor
-Material relacionado con la "Red TOR"
+# Mecanismos de privacidad y anonimato
+Repositorio relacionado con diversos mecanismo de privacidad y anonimato en la red.
 
 ## Agradecimientos
 

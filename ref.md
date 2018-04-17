@@ -1,12 +1,12 @@
 # Enlaces de referencia para el proyeto
 > Este compendio de enlaces ha sido recuperado del chat de Telegram de [LIDSOL](t.me/lidsol) y son, en conjunto, un acercamiento al proyecto _Mecanismos de Privacidad y Anonimato_
-> __Última actualización:__ 09/03/18
+> __Última actualización:__ 16/04/18
 
 ## Wiki
 * La [wiki](https://wiki.priv-anon.unam.mx/) oficial
 	* Este espacio está pensado como auxiliar con las tareas organizativas del Proyecto [«Desarrollo de materiales didácticos para los mecanismos de privacidad y anonimato en redes»](https://www.priv-anon.unam.mx/) (UNAM/DGAPA/PAPIME PE102718), particularmente en lo relacionado con las actividades y productos a que el proyecto nos compromete.
 
-## Ordenados del más reciente al más antigüoi
+## Ordenados del más reciente al más antigüo
 * [Verano de la privacidad](https://blog.torproject.org/join-tors-summer-privacy)
 	* "Una oportunidad para desarrolladores de contribuir con código y haciendo de Tor aún más fuerte."
 * Proyecto [AN.ON-Next](https://www.anon-next.de) de la Universidad Goethe
@@ -16,10 +16,10 @@
 * Nueva y más comprensible guia para correr un [Tor Relay](https://blog.torproject.org/new-guide-running-tor-relay)
 	* "Have we told you lately how much we love our relay operators? Relays are the backbone of the Tor network, providing strength and bandwidth for our millions of users worldwide. Without the thousands of fast, reliable relays in the network, Tor wouldn't exist."
 * Hacker roban otros hackers por medio de un [proxy TOR](https://www.infosecurity-magazine.com/news/hackers-steal-ransomware-payments/)
-	*"Proofpoint spotted several cases where hackers are using the onion[.]top proxy to effect a kind of man-in-the-middle attack, stepping in to redirect payment to their own Bitcoin address."
+	* "Proofpoint spotted several cases where hackers are using the onion[.]top proxy to effect a kind of man-in-the-middle attack, stepping in to redirect payment to their own Bitcoin address."
 * [Capacidad](https://metrics.torproject.org/networksize.html) de la red TOR y [mapa](https://twitter.com/TorAtlas/status/947990454511030275)
 	* __1/01/18:__ "There are currently 6220 #Tor relays running providing 24.9GiB/s total bandwidth."
-* [Video](https://media.ccc.de/v/34c3-8974-practical_mix_network_design) sobre el diseño práctico de redes mixtas. __2/01/18:__ VIDEO NO DISPONIBLE
+* [Video](https://media.ccc.de/v/34c3-8974-practical_mix_network_design) sobre el diseño práctico de redes mixtas. __2/01/18:__
 	* [PDF](https://mirrors.dotsrc.org/cdn.media.ccc.de/congress/2017/slides-pdf/34c3-8974-practical_mix_network_design.pdf)
 * [Artículo](https://thehackernews.com/2017/11/tor-onion-service.html) sobre TOR como instrumento para  reforzar la privacidad con la próxima generación de servicios de __onion__.
 * [Artículo](https://revista.seguridad.unam.mx/numero30/la-red-tor-como-elemento-de-privacidad-en-nuestras-vidas) __La red Tor como elemento de privacidad en nuestras vidas__ de @marc019 en la revista Seguridad de UNAM CERT
