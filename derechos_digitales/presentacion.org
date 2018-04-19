@@ -1,6 +1,6 @@
 #+TITLE: Privacidad, Anonimato y Derechos Digitales
-#+AUTHOR: Diego Barriga / Gunnar Wolf
-#+EMAIL: gwolf@gwolf.org
+#+DATE: \includegraphics[width=3em]{./img/cc-by.png}
+#+AUTHOR: Diego Alberto Barriga Martínez \vskip 0.2em Gunnar Eyal Wolf Iszaevich
 #+startup: beamer
 #+LATEX_class: beamer
 #+BEAMER_THEME: Berkeley
@@ -15,8 +15,6 @@
 #+LINK_HOME:
 #+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
 #+latex_header: \usepackage[spanish]{babel}
-
-
 #+latex_header: \usepackage[bibencoding=utf8, url=false, doi=false, style=authoryear, backend=biber]{biblatex}
 #+latex_header: \addbibresource{../misti.bib}
 #+latex_header: \renewcommand{\bibfont}{\normalfont\footnotesize}
@@ -26,7 +24,7 @@
 #+latex_header: \definecolor{UnamBlue}{RGB}{3,40,109}
 #+latex_header: \usecolortheme[named=UnamBlue]{structure}
 #+latex_header: \setbeamertemplate{navigation symbols}{}
-#+latex_header: \pgfdeclareimage[width=0.13\textwidth]{./lidsol.png}{./lidsol.png}\logo{\pgfuseimage{./lidsol.png}}
+#+latex_header: \pgfdeclareimage[width=0.13\textwidth]{./img/lidsol.png}{./img/lidsol.png}\logo{\pgfuseimage{./img/lidsol.png}}
 
 * ¿Por qué derechos digitales?
 ** Derechos humanos en Internet
@@ -87,9 +85,252 @@ Arma de doble filo...
 #+BEGIN_CENTER
 ¿Dónde está la privacidad?
 #+attr_latex: width 0.9\textwidth
-[[./constitute.png]]
+[[./img/constitute.png]]
 #+END_CENTER
 
 ** Algunos ejemplos...
+\huge *¡Pos escríbelos!*
+
+* Las redes de privacidad y anonimato
+
+** Redes superpuestas anonimizadoras
+- No es una idea nueva (Chaum, 1981: /Untraceable Electronic Mail,
+  Return Addresses, and Digital Pseudonyms/)
+- Construye sobre un concepto a esas alturas novedoso: /Criptografía
+  asimétrica/ (Diffie y Hellman: /New Directions in Cryptography/)
+
+#+BEGIN_CENTER
+Pera, pera, pera...
+
+\pause
+#+latex: \vskip 1em \textbf{ \huge ¿Criptografía asimétrica? } \vskip 1em
+
+¿Quéseso?
+#+END_CENTER
+
+** ¿Criptografía...?
+#+BEGIN_CENTER
+Mecanismo para ocultar el contenido de un mensaje de participantes de
+una red de comunicación distintos al destinatario
+#+END_CENTER
+
+** Cripto 1: Desconocimiento del /mecanismo/
+#+latex: \begin{columns} \begin{column}{0.5\textwidth} \centering
+#+attr_latex: :width 0.7\textwidth
+[[./img/escitala.png]]
+Escítala (Grecia antigua) \vfill
+#+attr_latex: :width \textwidth
+[[./img/dancing_men.png]]
+Arthur Conan Doyle: /La aventura de los bailarines/ (Sherlock Holmes)
+#+latex: \end{column} \begin{column}{0.5\textwidth} \centering
+#+attr_latex: :width \textwidth
+[[./img/cesar.pdf]]
+Cifrado /César/ (Roma) \vfill
+#+attr_latex: :width \textwidth
+[[./img/templario.png]]
+Cifrado /templario/ (alta edad media)
+#+latex: \end{column} \end{columns}
+
+** Cripto 2: Desconocimiento de la /llave/ (1): /Codebooks/ (Telegrama Zimmerman)
+#+attr_latex: :width \textwidth
+[[./img/zimmermann.jpg]]
+
+** Cripto 2: Desconocimiento de la /llave/ (2): Mecanización
+#+latex: \begin{columns} \begin{column}{0.5\textwidth} \centering
+#+attr_latex: :width \textwidth
+[[./img/enigma_patente.png]]
+Ilustración de la patente de la /máquina Enigma/ en EUA a Arthur Scherbius, 1928
+#+latex: \end{column} \begin{column}{0.5\textwidth} \centering
+#+attr_latex: :width 0.5\textwidth
+[[./img/enigma.jpg]]
+Máquina de cifrado /Enigma/
+#+attr_latex: :width 0.5\textwidth
+[[./img/lorenz.jpg]]
+Máquina de cifrado /Lorenz/
+#+latex: \end{column} \end{columns}
+
+** Cripto 3: Llave pública
+#+latex: \begin{columns} \begin{column}{0.5\textwidth} \centering
+#+attr_latex: :width \textwidth
+[[./img/asimetrica.png]]
+Cifrado (/C/) y descifrado (/D/) son funciones matemáticas
+/complementarias/ y unidas por una /puerta trasera/
+#+latex: \end{column} \begin{column}{0.5\textwidth} \centering
+La comunicación consta de /dos llaves/: Una se da a conocer a todo el
+mundo...
+#+attr_latex: :width 0.8\textwidth
+[[./img/publica.pdf]]
+...La otra se mantiene /estricta y celosamente secreta/
+#+latex: \end{column} \end{columns}
+
+** Importancia de los metadatos
+#+latex: \begin{columns} \begin{column}{0.2\textwidth} \centering
+#+attr_latex: :width \textwidth
+[[./img/espias.jpg]]
+#+latex: \end{column} \begin{column}{0.6\textwidth} \centering
+\Large Nuestra comunicación es segura...
+#+latex: \end{column} \begin{column}{0.2\textwidth} \centering
+#+attr_latex: :width \textwidth
+[[./img/soldado.jpg]]
+#+latex: \end{column} \end{columns}
+
+#+latex: \begin{columns} \begin{column}{0.5\textwidth} \centering \small
+4faef5e524a227ad03427ec7d8e25812
+e9e9f98fe09878fd94300675ca631fe5
+d4764285aeaa303dcb344725a6fc9974
+92e391af485fca8d8e8a55b738de4809
+2913bcdf30b7d5231d312d8074854e57
+61d719eccd19d2d1dded74e0b67517e5
+3a66fbc100e31f7bd5d3d0021eb7b92f
+0e0104f0412ac81c326afe5d467ca1c9
+...
+#+latex: \end{column} \begin{column}{0.5\textwidth} \centering \small
+- 180407 13:35: Alicia → Beto
+- 180407 14:40: Beto → Alicia
+- 180407 17:54: Alicia → Beto
+- 180407 20:03: Alicia → Beto
+- 180408 00:25: Beto → Alicia
+- 180408 07:10: Alicia → Beto
+#+latex: \end{column} \end{columns} \Large \pause
+#+BEGIN_CENTER
+*Investíguese la relación entre Alicia y Beto.*
+#+END_CENTER
+
+** Ahora sí: Redes de anonimato
+Volviendo a las /Redes de mezcla/ de Schaum...
+- ocultan la /comunicación directa/ entre dos participantes
+- Cada mensaje debe /saltar/ entre varios participantes de la red
+- La red debe tener cierto tráfico base (en una red silenciosa, todo
+  mensaje solitario se vuelve obvio)
+- Puede introducir demoras aleatorias, mensajes vacíos
+- → Lentas /por diseño/
+
+** Red de mezcla
+#+latex: \begin{columns} \begin{column}{0.6\textwidth}
+#+attr_latex: :height 0.8\textheight
+[[./img/ABCDE.png]]
+#+latex: \end{column} \begin{column}{0.4\textwidth}
+Métricas / salud#+BEGIN_CENTER
+Manteniendo el anonimato para la comunicación de /Alicia/ a /Beto/
+#+END_CENTER
+1. Alicia → Emilio
+2. Emilio → David
+3. David → Carla
+4. Carla → Beto
+#+BEGIN_CENTER
+↓ \vskip 1em *Alicia → Beto* \vskip 1em (discretamente)
+#+END_CENTER
+#+latex: \end{column} \end{columns}
+
+** Ruteo cebolla
+#+latex: \begin{columns} \begin{column}{0.2\textwidth}
+#+attr_latex: :width \textwidth
+[[./img/tor.pdf]]
+#+latex: \end{column} \begin{column}{0.8\textwidth}
+En los 1990, El Laboratorio de Investigación de la Marina de EUA
+construye sobre las ideas de Chaum para crear algo adecuado para su
+/uso general/ en la era de Internet.
+
+La implementación mejor conocida y más utilizada es Tor.
+#+latex: \end{column} \end{columns}
+
+- Nodos directorio :: Centralizan la distribución y carga de los nodos
+     de entrada / intermedios / salida
+- Circuitos :: Cada usuario de la red establece /circuitos/ con un
+               tiempo de vida máximo de entre minutos y horas. Operan
+               con cifrado /simétrico/, con /llaves de sesión/ (mucho
+               más rápido que el /asimétrico/).
+- Consenso :: Los nodos directorio monitorean constantemente la red y
+              el estado de salud de los nodos participantes evitando
+              sobrecarga, mal funcionamiento, abuso, ...
 
 * Nuestro proyecto
+** Dejemos los detalles técnicos de lado
+#+BEGIN_CENTER
+En esta plática, buscamos presentar el trabajo que estamos haciendo
+alumnos y docentes del LIDSOL como parte del proyecto
+/UNAM/DGAPA/PAPIME 102718/ (¡e invitarlos a participar!)
+\vfill
+Nos interesa ir más allá de una mera comprensión técnica.
+\vfill
+Nos interesa que estas tecnologías tengan un /impacto positivo en la
+sociedad/.
+#+END_CENTER
+
+** ¿Quién necesita del anonimato? (1)
+#+latex: {\tiny Reproducido/traducido de \url{https://www.onion-router.net/Publications/Briefing-2004.pdf}, elaborado en 2004 por el Laboratorio de Investigación de la Marina de EUA}
+- Quien mantiene comunicaciones socialmente sensibles
+  - Chats relativos a situaciones médicas, a víctimas de crímen
+- Cumplimiento de la ley
+  - Reporte anónimo de ilícitos
+  - Operaciones encubiertas y de vigilancia
+- Corporaciones
+  - Ocultar las colaboraciones de unidades o socios sensibles
+  - Ocultar patrones de adquisición de bienes
+- Disidentes políticos
+- Editores resistentes a la censura
+- Denunciantes (/whistleblowers/)
+
+** ¿Quién requiere del anonimato (2)
+#+latex: {\tiny Reproducido/traducido de \url{https://www.onion-router.net/Publications/Briefing-2004.pdf}, elaborado en 2004 por el Laboratorio de Investigación de la Marina de EUA}
+- Tú:
+  - ¿A quién envías correo? ¿Quién te envía correo?
+  - ¿Qué sitios Web visitas?
+  - ¿Dónde trabajas? ¿De dónde erees?
+  - ¿Qué compras? ¿Qué tipo de médicos visitas? ¿Qué libros lees? \pause
+- El gobierno
+  - Adquisición de inteligencia
+  - Defensa a profundidad en redes abiertas y /clasificadas/
+  - Coaliciones internacionales dinámicas y /semi-confiadas/
+  - Redes parcialmente bajo control hostil
+  - Negociaciones políticamente sensibles
+  - ... \pause
+- *¡Los criminales!*
+  - ...Pero ya la tienen, nos guste o no
+  - No por culpa de ellos vamos a /perder/ nuestra protección...
+
+** ¿Qué estamos haciendo?
+#+BEGIN_CENTER
+Proyecto a dos años:
+#+END_CENTER
+- Primer año, principalmente orientado a {gente,productos} de
+  Ingeniería
+  - Conocer la tecnología
+  - Instalar nodos, servicios
+  - Desarrollar embebidos (clase Raspberry) para crear puntos de
+    acceso
+  - Serie audiovisual cubriendo \approx los puntos que abordamos en
+    esta plática
+- Segundo año, llevar lo aprendido a los /principales potenciales
+  beneficiarios/: Facultades de humanidades / ciencias sociales
+
+** Actividades para el primer año
+- *Material multimedia:* /Internet, la vida privada, y otras historias de paquetes/
+- *Simposio:* Mecanismos de privacidad y anonimato en redes: La red Tor
+- *Desarrollo tecnológico:* Punto de acceso para ofrecer conexión cifrada
+- *Infraestructura:* Nodo de salida para la red Tor
+- *Artículo(s) de divulgación:* Presentación de la problemática para
+  el público en general
+
+** Actividades para el segundo año
+- *Material multimedia:* Videocast técnico: ¿Cómo funciona la anonimización?
+- *Curso-taller:* Herramientas para la privacidad: Uso de redes anonimizadoras
+- *Manual:* Documentación técnica para fortalecer la red Tor
+- *Tutorial:* Tutorial de uso de redes anonimizadoras
+- *Artículo(s) en memorias o revistas arbitradas:* Presentación de
+  resultados en congreso internacional
+- *Libro:* Privacidad y anonimato en redes: Un recuento
+  interdisciplinario
+
+* Cierre
+** ¿Te interesa unirte a nuestra aventura?
+#+latex: \centering
+#+attr_latex: :width 0.33\textwidth
+[[./img/lidsol.png]]
+
+- Web :: https://lidsol.org
+- E-mail ::
+	    #+latex: \url{lidsol\_unam@outlook.com}
+- Telegram :: lidsol
+- Twitter :: LIDSOL
+- Facebook :: lidsol.unam
