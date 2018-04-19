@@ -1,0 +1,95 @@
+#+TITLE: Privacidad, Anonimato y Derechos Digitales
+#+AUTHOR: Diego Barriga / Gunnar Wolf
+#+EMAIL: gwolf@gwolf.org
+#+startup: beamer
+#+LATEX_class: beamer
+#+BEAMER_THEME: Berkeley
+#+BEAMER_COLOR_THEME: lily
+#+LANGUAGE: es
+#+OPTIONS:   H:2 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:
+#+LINK_HOME:
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+latex_header: \usepackage[spanish]{babel}
+
+
+#+latex_header: \usepackage[bibencoding=utf8, url=false, doi=false, style=authoryear, backend=biber]{biblatex}
+#+latex_header: \addbibresource{../misti.bib}
+#+latex_header: \renewcommand{\bibfont}{\normalfont\footnotesize}
+#+latex_header: \usepackage{color}
+#+latex_header: \usepackage{subcaption}
+#+latex_header: \usepackage{wasysym}
+#+latex_header: \definecolor{UnamBlue}{RGB}{3,40,109}
+#+latex_header: \usecolortheme[named=UnamBlue]{structure}
+#+latex_header: \setbeamertemplate{navigation symbols}{}
+#+latex_header: \pgfdeclareimage[width=0.13\textwidth]{./lidsol.png}{./lidsol.png}\logo{\pgfuseimage{./lidsol.png}}
+
+* ¿Por qué derechos digitales?
+** Derechos humanos en Internet
+- En el pasado... Poco relevante
+  - El /mundo digital/ no era suficientemente relevante
+- Hoy, gran parte de nuestra vida se desarrolla mediada por
+  tecnologías \pause
+- Derechos digitales \rightarrow Derechos humanos /aplicados a un
+  ámbito/ digital
+
+** ¿Crisis en derechos humanos?
+- Los 43 de Ayotzinapa
+- Feminicidios / violencia de género
+- Violencia extrema (militares / paramilitares / narco)
+- País con más crímenes contra periodistas
+- Ya ni en el campus estamos a salvo
+- ...
+#+BEGIN_CENTER
+¿Cómo proteger a millones de usuarios y usuarias en la red? \vskip 1em
+
+¿Cómo podemos ayudar desde la trinchera tecnológica en que somos más
+capaces de /incidir para bien de la sociedad/?
+#+END_CENTER
+
+** Diferentes aspectos de Internet
+#+BEGIN_CENTER
+Arma de doble filo...
+#+END_CENTER
+#+latex: \begin{columns} \begin{column}{0.5\textwidth}
+- Facilita la libre expresión
+- Creación de comunidades
+- Acceso a información
+\vskip 6em \quad
+#+latex: \end{column} \begin{column}{0.5\textwidth}
+- Facilita el espionaje
+- Permite /relativamente bien/ la censura
+- Agresiones masificadas a grupos vulnerables
+- Tratamiento de información sin consentimiento previo de usuarios
+#+latex: \end{column} \end{columns}
+
+** La privacidad como derecho humano (1)
+#+BEGIN_CENTER
+¿Dónde está la privacidad?
+#+END_CENTER
+- Reconocimiento de la dignidad y derechos personales intrínsecos para
+  la paz, la libertad y la justicia
+- Individuos e instituciones inspirándose en la carta promuevan,
+  mediante la enseñanza y la educación, el respeto a las libertades y
+  los derechos
+- Asegurar su aplicación Artículo 12:
+  #+BEGIN_QUOTE
+  Nadie será objeto de injerencias arbitrarias (intromisiones) en su
+  vida privada, su familia, su domicilio o su correspondencia, ni de
+  ataques a su honra o a su reputación. Toda persona tiene derecho a
+  la protección de la ley contra tales injerencias o ataques.
+  #+END_QUOTE
+** La privacidad como derecho humano (2)
+#+BEGIN_CENTER
+¿Dónde está la privacidad?
+#+attr_latex: width 0.9\textwidth
+[[./constitute.png]]
+#+END_CENTER
+
+** Algunos ejemplos...
+
+* Nuestro proyecto
