@@ -21,7 +21,7 @@
 	* ¿Se mandan a TV unam?. Se sube a un dominio UNAM.
 	* Propuesta para el cambio de la justificaición del material. Mayor empatia si no se toman los temas del hacktivismo. Tor habla de periodista, blogers, activistas. Si utilizamos estas figuras puede tener un impacto mayor.
 	* Se trabaja con una escaleta de producción.
-	* Es fundamental el ultimo capitulo porque es el que tenemos que desarrollar para tener el fin al cual debemos llegar.
+	* Es fundamental el último capitulo porque es el que tenemos que desarrollar para tener el fin al cual debemos llegar.
 	* Es humano.
 
 ### Fechas
