@@ -1,12 +1,14 @@
 # Enlaces de referencia para el proyeto
 > Este compendio de enlaces ha sido recuperado del chat de Telegram de [LIDSOL](t.me/lidsol) y son, en conjunto, un acercamiento al proyecto _Mecanismos de Privacidad y Anonimato_
-> __Última actualización:__ 16/04/18
+> __Última actualización:__ 27/04/18
 
 ## Wiki
 * La [wiki](https://wiki.priv-anon.unam.mx/) oficial
 	* Este espacio está pensado como auxiliar con las tareas organizativas del Proyecto [«Desarrollo de materiales didácticos para los mecanismos de privacidad y anonimato en redes»](https://www.priv-anon.unam.mx/) (UNAM/DGAPA/PAPIME PE102718), particularmente en lo relacionado con las actividades y productos a que el proyecto nos compromete.
 
 ## Ordenados del más reciente al más antigüo
+* [Raspberry Tor Router](https://hackaday.io/project/4223-raspberry-tor-router)
+  * "Turn a Raspberry Pi into a wireless AP that routes all your traffic through the Tor."
 * [Verano de la privacidad](https://blog.torproject.org/join-tors-summer-privacy)
 	* "Una oportunidad para desarrolladores de contribuir con código y haciendo de Tor aún más fuerte."
 * Proyecto [AN.ON-Next](https://www.anon-next.de) de la Universidad Goethe
@@ -24,10 +26,10 @@
 * [Artículo](https://thehackernews.com/2017/11/tor-onion-service.html) sobre TOR como instrumento para  reforzar la privacidad con la próxima generación de servicios de __onion__.
 * [Artículo](https://revista.seguridad.unam.mx/numero30/la-red-tor-como-elemento-de-privacidad-en-nuestras-vidas) __La red Tor como elemento de privacidad en nuestras vidas__ de @marc019 en la revista Seguridad de UNAM CERT
 * [Dispositivo](https://learn.adafruit.com/onion-pi/overview) de _Ada fruit_ llamado __onion-pi__ con el que puedes navegar anonimamente usando una Raspberry Pi, un adaptador Wifi USB y cable Ethernet para crear una red privada pequeña, de bajo consumo energético y portable.
-	* "Usarlo es _easy-as-pie_. Primero, conecta el cable Ethernet en cualquier proveedor de Internet en tu casa, trabajo, hotel o conferencia/evento. Después, enciende la _Pi_ con el cable micro USB y tu laptop o en el enchufe de la pared. La _Pi_ iniciará y creará un nuevo punto de acceso inalámbrico seguro llamado __Onion Pi__. Conectandose a este punto de enrutará acceso automáticamente cualquier busqueda en línea de tu computadora a traves the la Red de anonimato Tor."
+	* "Usarlo es _easy-as-pie_. Primero, conecta el cable Ethernet en cualquier proveedor de Internet en tu casa, trabajo, hotel o conferencia/evento. Después, enciende la *Pi* con el cable micro USB y tu laptop o en el enchufe de la pared. La *Pi* iniciará y creará un nuevo punto de acceso inalámbrico seguro llamado __Onion Pi__. Conectandose a este punto de enrutará acceso automáticamente cualquier busqueda en línea de tu computadora a traves the la Red de anonimato Tor."
 	![Onion Pi image](https://cdn-learn.adafruit.com/assets/assets/000/009/059/original/raspberry_pi_onionpi.jpg?1396881734)
 * [Artículo](https://blog.torproject.org/take-part-study-help-improve-onion-services) para formar parte de un _estudio para ayudar a mejorar los servicios ONION_
-	* ___Update 2017-09-11:__ We have collected several hundred responses, so we are now closing the survey to begin data analysis. Thanks for your help!_
+	* __Update 2017-09-11:__ We have collected several hundred responses, so we are now closing the survey to begin data analysis. Thanks for your help!
 * Actualización del [navegador Tor](http://www.tomshardware.com/news/tor-browser-7-multi-process-architecture,34695.html) a la versión 7.0 con Firefox 52 'ESR' como base, arquitectura multi-proceso __07/06/18__
 * [Video](https://www.youtube.com/watch?v=QRYzre4bf7I) sobre ¿Cómo funciona el enrutamiento _Onion_? por el Dr. Mike Pound
 * Anuncio de [_"El contrado social de Tails"_](https://lwn.net/Articles/722257/) __09/05/18__
