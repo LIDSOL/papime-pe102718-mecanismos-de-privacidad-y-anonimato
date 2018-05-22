@@ -1,4 +1,4 @@
-# Privacidad, Anonimato y Derechos Digitales
+# Privacidad,> Anonimato y Derechos Digitales
 ## 1. ¿Por qué derechos digitales?
   * Los derecho digitales son los derechos humanos aplicados a un ambito digital que hoy en día es un medio que permea en muchos elementos de nuestras vidas. Ejemplos básicos son la libre expresión, derecho al acceso, derecho a la asociación y el derecho a la privacidad y anonimato. En el pasado hablar de derecho humanos en internet era poco relevante ya que el mundo digital se veía como algo con mucho potencial pero que estaba disponible para un número selecto de personas. Hoy es importante visualizar y promover los derechos digitales ya que gran parte de nuestra vida laboral, social, cultural y económica se desarrolla a través de estas tecnologías.
 

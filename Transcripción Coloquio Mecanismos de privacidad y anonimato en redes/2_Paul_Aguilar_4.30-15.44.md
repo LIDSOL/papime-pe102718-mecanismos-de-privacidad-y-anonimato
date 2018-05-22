@@ -37,3 +37,10 @@ La situación actual era que en México no había nodos. De repende esta mañana
 * **Paul Aguilar:** Colaborando con Wolf tenemos como mes y medio. Nosotros cuando investigamos no había nada en México y hoy en la mañana me metí y resulta que están estos 4 años.
 * **Asistente 1:** El (*Señala a alguien 15:26*) a estado operando un nodo y lleva más de dos años.
 * **Paul Aguilar:** ¿Y lo tienes registrado en México?
+* **Asistente 2:** El análisis que hicimos en mayo había uno de salida y como cuatro o cinco normales.
+* **Paul Aguilar:** Sería cuestion de ver como los está administrando alguien por que si se están cayendo o algo
+* **Gunnar Wolf:** Aquí lo que se nos esta diciendo es la foto del momento
+* **Paul Aguilar:** Si son equipos caseros que solo funcionan durante el día no aparecerán en la consulta. Sería interesante analizar como estan funcionando los nodos aquí en México. Si hay nodos ¿Porqué en cierta hora si hay y en otras no hay? ¿Qué utilidad se les está dando? Un muestreo frecuente para reportar la situación actual del país en torno a los nodos dado que es información pública
+Alguien menciono la herramienta *Colector* donde hay información pública de los nodos. Aquí el maestro *Quiroga* él es actuario y el tiene la capacidad de hacer el analisis para comenzar a ver la situación real en número o dato tangibles que nos den un punto de partidad para abordar desde la ingeniería o la invertigación y el desarrollo.
+
+Hay organizaciones que estan tomando acciones en estos temas pero si algo se comenta mucho es que la parte tecnologíca o de producción científica en México está decayendo. No debería ser asi ya que todos deberíamos trabajar a la par y este tipo de proyectos siempre son buenos para trabajar en conjunto. Está sería la introducción al proyecto y sepan para qué estamos aquí y no se sientan con pena de preguntar ya que todos podemos colaborar.
