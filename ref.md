@@ -1,12 +1,13 @@
 # Enlaces de referencia para el proyeto
 > Este compendio de enlaces ha sido recuperado del chat de Telegram de [LIDSOL](t.me/lidsol) y son, en conjunto, un acercamiento al proyecto _Mecanismos de Privacidad y Anonimato_
-> __Última actualización:__ 27/04/18
+> __Última actualización:__ 22/05/18
 
 ## Wiki
 * La [wiki](https://wiki.priv-anon.unam.mx/) oficial
 	* Este espacio está pensado como auxiliar con las tareas organizativas del Proyecto [«Desarrollo de materiales didácticos para los mecanismos de privacidad y anonimato en redes»](https://www.priv-anon.unam.mx/) (UNAM/DGAPA/PAPIME PE102718), particularmente en lo relacionado con las actividades y productos a que el proyecto nos compromete.
 
 ## Ordenados del más reciente al más antigüo
+* Liberación de Dimitri Bogatov [nota](http://www.jornada.unam.mx/2018/05/19/opinion/021o1mun)
 * [Raspberry Tor Router](https://hackaday.io/project/4223-raspberry-tor-router)
   * "Turn a Raspberry Pi into a wireless AP that routes all your traffic through the Tor."
 * [Verano de la privacidad](https://blog.torproject.org/join-tors-summer-privacy)
