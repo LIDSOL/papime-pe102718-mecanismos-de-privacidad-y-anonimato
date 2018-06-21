@@ -15,7 +15,7 @@ Por ejemplo, tenemos una lista de correos en la cual se ha dado una introducció
 * ¿Qué pasaría si al tener varios nodos levantados en la universidad pudieramos monitorear los eventos sucedidos?
 * Podriamos determinar cúando y porqué un nodo es bloqueado por algún proveedor de servicios de internet.
 * Esto sería probablemente porque **una red que permite el anonimato puede usarse tanto para cosas buenas como cosas malas.**
-* Si el proveedor lo esta bloqueando tenemos que saber ¿Porqué?
+* Si el proveedor lo esta bloqueando tenemos que saber ¿Por qué?
 Estos son problemas que suelen suceder en este tipo de herramientas que al estar arriba suelen caer por malos usos. Dependiendo que hagas con ella es como irá viviendo.
 * ¿Qué pasaría si dentro de la universidad o dentro del laboratorio comenzaramos a desarrollar herramientas que nos permitieran detectar los sintomas que determinan que estos nodos mueran?
 * ¿Qué actividades hacen que estos nodos no se esten usando al cien porciento o que no se esten usando para bien?
