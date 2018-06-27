@@ -1,0 +1,14 @@
+config BR2_PACKAGE_TORNIQUETE
+    bool "torniquete"
+    help
+        This package configures an access point that sends al the traffic 
+        through the TOR network
+
+comment "torniquete needs dnsmasq, hostapd, iptables, iw, tor, wpa_supplicant"
+    depends on !BR2_PACKAGE_DNSMASQ
+    depends on !BR2_PACKAGE_HOSTAPD
+    depends on !BR2_PACKAGE_IPTABLES
+    depends on !BR2_PACKAGE_IW
+    depends on !BR2_PACKAGE_TOR
+    depends on !BR2_PACKAGE_WPA_SUPPLICANT
+
