@@ -77,10 +77,59 @@ Buildroot incluye varias interfaces de usuario para poder configurar la imagen
 del sistema, nosotros usaremos la interfaz basada en terminal. Para ejecutarla
 escribe en la terminal `make menuconfig`, aparecerá una pantalla como esta:
 
+![captura de menuconfig](../images/captura1.jpg)
 
+Para navegar en este menú usar las flechas del teclado, para marcar una opción
+presiona <kbd>Espacio</kbd>, para entrar en un menú presiona <kbd>Enter</kbd>,
+para salir presiona <kbd>Escape</kbd>.
 
+En este menú nos interesa seleccionar las siguientes opciones:
 
+Esencial para el proxy anonimizador
+- Target Packages
+  - Networking Applications
+    [x] dnsmasq
+    [x] hostapd
+    [x] ifupdown scripts
+    [x] iptables
+    [x] tor
+    [x] wpa_supplicant
 
+Esencial para la Raspberry Pi
+- Target Packages
+  - Hardware Handling
+    - Firmware
+      [x] rpi-firmware
+      [x] rpi-wifi-firmware
+      [x] b43-firmware (tal vez no necesario)
 
+Útiles pero no necesarios
+- Target Packages
+  - Networking Applications
+    [x] openssh
+  - Text editors and viewers
+    [x] nano
+
+Además de esto, nosotros hicimos algunos cambios adicionales, por ejemplo, en
+la sección de Toolchain nosotros usamos glibc, en lugar uClib, usamos la
+version 2.28.1 de binutils y gcc 7.x.
+
+Por último para copiar todos los archivos de configuración a la imagen usamos
+el mecanismo de rootfs-overlay que provee Buildroot. Copia la carpeta
+`buildroot/board/lidsol` a la carpeta `board/` dentro de tu copia de buildroot.
+
+Ahora debemos indicarle a Buildroot que copie estos archivos, para ello
+volvemos al menú de configuración y en la sección `System Configuration`
+encontraremos el menú `Root filesystem overlay directories` ahí debemos
+introducir la ruta a la capeta que acabamos de copiar, en este ejemplo sería
+`board/lidsol/raspberrypi3/rootfs-overlay`
+
+![captura de menuconfig](../images/captura2.png)]
+
+Salimos del menú y cuando pregunte si deseamos guardar los cambios, confirmamos
+y esto guardará toda la configuración en un archivo llamado `.config`
+
+Ahora para reconstruir toda la imagen solo debemos ejecutar nuevamente `make`
+y esperar a que termine la construcción de la imagen.
 
 
