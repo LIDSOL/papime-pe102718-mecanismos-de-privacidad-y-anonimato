@@ -1,0 +1,59 @@
+#!/bin/sh
+#
+# tornado        Starts the isolating TOR proxy
+#
+
+start() {
+        echo "Starting tornado"
+
+	# Update wpa_supplicant.conf file
+	mkdir -p /boot
+        mount -t vfat /dev/mmcblk0p1 /boot
+        cp /boot/wpa_supplicant.conf /etc
+	umount /boot
+	rmdir /boot
+
+	# Setting up ap0
+	AP_MAC=$(cat /sys/class/net/wlan0/address | sed 's/..$/77/')
+        ip link set ap0 address $AP_MAC
+
+        # Starting ap0
+        ifup ap0
+
+        # Starting wlan0
+        ifup wlan0
+
+        # Restore iptables rules
+        sysctl -w net.ipv4.ip_forward=1
+
+	echo OK
+}
+
+stop() {
+	echo "Stopping tornado"
+	ifdown ap0
+	ifdown wlan0
+	echo "OK"
+}
+
+restart() {
+	stop
+	start
+}
+
+case "$1" in
+  start)
+	start
+	;;
+  stop)
+	stop
+	;;
+  restart|reload)
+	restart
+	;;
+  *)
+	echo "Usage: $0 {start|stop|restart}"
+	exit 1
+esac
+
+exit $?
