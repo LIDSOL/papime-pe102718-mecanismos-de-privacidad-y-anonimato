@@ -71,7 +71,7 @@ Si todo salió bien ahora deberias tener un archivo .img en la carpeta
 `output/images`.
 
 Ahora podemos configurar los demás paquetes necesarios para nuestro proxy
-anonimizador. 
+anonimizador.
 
 Buildroot incluye varias interfaces de usuario para poder configurar la imagen
 del sistema, nosotros usaremos la interfaz basada en terminal. Para ejecutarla
@@ -86,12 +86,16 @@ para salir presiona <kbd>Escape</kbd>.
 En este menú nos interesa seleccionar las siguientes opciones:
 
 Esencial para el proxy anonimizador
+- System Configuration
+  - /dev managment
+    [x] Dynamic using devtmpfs + mdev
 - Target Packages
   - Networking Applications
     [x] dnsmasq
     [x] hostapd
     [x] ifupdown scripts
     [x] iptables
+    [x] iw
     [x] tor
     [x] wpa_supplicant
 

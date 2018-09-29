@@ -1,12 +1,12 @@
-# TORNADO: Punto de acceso inálambrico para la red TOR 
+# TORNADO: Punto de acceso inálambrico para la red TOR
 
 Este es un subproyecto del PAPIME Mecanismos de privacidad y anonimato.
 
 ## Objetivo
 
-El proyecto consiste en crear una imagen arrancable basada en Linux para 
+El proyecto consiste en crear una imagen arrancable basada en Linux para
 computadoras embebidas de bajo costo (SBCs).
-Esta imagen provee de forma automática un punto de acceso inalámbrico (WiFi) 
+Esta imagen provee de forma automática un punto de acceso inalámbrico (WiFi)
 que redirige todo el tráfico que pase por él, a la red TOR.
 Esto animiza el tráfico de red del usuario, sin necesidad de configuraciones
 adicionales.
@@ -37,7 +37,7 @@ Las imágenes desarrolladas han sido probadas en las siguientes computadoras:
 
 ## Cómo funciona
 
-Descarga la imagen adecuada para tu Raspberry Pi 
+Descarga la imagen adecuada para tu Raspberry Pi
 TODO: añadir links a imágenes
 
 Graba el archivo `sdcard.img` en una memoria MicroSD de al menos 128MB, puedes
@@ -49,7 +49,7 @@ La computadora debe ser conectada a red por medio de un cable ethernet, y la
 corriente eléctrica por medio de un cable micro usb, la raspberry pi 3 {B,B+}
 requiere de una fuente de poder de al menos 5V y 2.5A.
 
-Una ves conectada iniciará el sistema operativo y tras 1 minuto
+Una vez conectada iniciará el sistema operativo y tras 1 minuto
 aproximadamente, será posible conectarse por WiFi a la red `torrente` usando
 la contraseña `torbellino`.
 
