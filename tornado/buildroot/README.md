@@ -89,34 +89,34 @@ Esencial para el proxy anonimizador
 
 - System Configuration
   - /dev managment
-    [x] Dynamic using devtmpfs + mdev
+    - [x] Dynamic using devtmpfs + mdev
 - Target Packages
   - Networking Applications
-    [x] dnsmasq
-    [x] hostapd
-    [x] ifupdown scripts
-    [x] iptables
-    [x] iw
-    [x] tor
-    [x] wpa_supplicant
+    - [x] dnsmasq
+    - [x] hostapd
+    - [x] ifupdown scripts
+    - [x] iptables
+    - [x] iw
+    - [x] tor
+    - [x] wpa_supplicant
 
 Esencial para la Raspberry Pi
 
 - Target Packages
   - Hardware Handling
-    [x] rng-tools
+    - [x] rng-tools
     - Firmware
-      [x] rpi-firmware
-      [x] rpi-wifi-firmware
-      [x] b43-firmware (tal vez no necesario)
+      - [x] rpi-firmware
+      - [x] rpi-wifi-firmware
+      - [x] b43-firmware (tal vez no necesario)
 
 Útiles pero no necesarios
 
 - Target Packages
   - Networking Applications
-    [x] openssh
+    - [x] openssh
   - Text editors and viewers
-    [x] nano
+    - [x] nano
 
 Además de esto, nosotros hicimos algunos cambios adicionales, por ejemplo, en
 la sección de Toolchain nosotros usamos glibc, en lugar uClib, usamos la

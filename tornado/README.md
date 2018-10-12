@@ -18,11 +18,11 @@ activistas y todo aquel preocupado por su privacidad en la red, navegar de
 forma anónima por internet, sin necesidad de conocimientos técnicos avanzados.
 
 - La creación de este producto permite a los alumnos de la FI UNAM, aprender:
-    - El desarrollo para Linux embebido
-    - La construcción de imágenes mínimas de Linux
-    - Creación de paquetes para [buildroot](https://buildroot.org/)
-    - Gestión de hardware en Linux
-    - Manejo de redes en Linux
+  - El desarrollo para Linux embebido
+  - La construcción de imágenes mínimas de Linux
+  - Creación de paquetes para [buildroot](https://buildroot.org/)
+  - Gestión de hardware en Linux
+  - Manejo de redes en Linux
 
 - La documentación generada en el desarrollo de este producto permitirá el
 desarrollo de productos similares en el futuro.
