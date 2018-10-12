@@ -55,9 +55,9 @@ make raspberrypi3_defconfig
 Con esto se habrá configurado buildroot para crear una imagen mínima para
 nuestra computadora.
 
-*Si tu computadora no se encuentra en la lista entonces debes indicar buildroot
+_Si tu computadora no se encuentra en la lista entonces debes indicar buildroot
 la forma correcta de construir un kernel y sistema de ficheros para tu
-computadora, esto esta totalmente fuera del alcance de esta guía.*
+computadora, esto esta totalmente fuera del alcance de esta guía._
 
 Antes de proceder a configurar los paquetes para la computadora, compila la
 imagen para verificar que no este rota la compilación para esta versión de
@@ -86,6 +86,7 @@ para salir presiona <kbd>Escape</kbd>.
 En este menú nos interesa seleccionar las siguientes opciones:
 
 Esencial para el proxy anonimizador
+
 - System Configuration
   - /dev managment
     [x] Dynamic using devtmpfs + mdev
@@ -100,14 +101,17 @@ Esencial para el proxy anonimizador
     [x] wpa_supplicant
 
 Esencial para la Raspberry Pi
+
 - Target Packages
   - Hardware Handling
+    [x] rng-tools
     - Firmware
       [x] rpi-firmware
       [x] rpi-wifi-firmware
       [x] b43-firmware (tal vez no necesario)
 
 Útiles pero no necesarios
+
 - Target Packages
   - Networking Applications
     [x] openssh
@@ -128,12 +132,10 @@ encontraremos el menú `Root filesystem overlay directories` ahí debemos
 introducir la ruta a la capeta que acabamos de copiar, en este ejemplo sería
 `board/lidsol/raspberrypi3/rootfs-overlay`
 
-![captura de menuconfig](../images/captura2.png)]
+![captura de menuconfig](../images/captura2.png)
 
 Salimos del menú y cuando pregunte si deseamos guardar los cambios, confirmamos
 y esto guardará toda la configuración en un archivo llamado `.config`
 
 Ahora para reconstruir toda la imagen solo debemos ejecutar nuevamente `make`
 y esperar a que termine la construcción de la imagen.
-
-
